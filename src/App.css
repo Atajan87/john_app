@@ -1,10 +1,13 @@
 .App {
   text-align: center;
   background-color: #b1bdd6;
+  max-width: 1200px;
+  margin: 0 auto;
+  border: 3px solid green;
 }
 
 .App-logo {
-  height: 40vmin;
+  /* height: 40vmin; */
   pointer-events: none;
 }
 
@@ -24,7 +27,9 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.App-geating {
+  padding: 0 10px;
+}
 .App-link {
   color: #61dafb;
 }

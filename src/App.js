@@ -4,12 +4,14 @@ import { Welcome } from "./components/Message/Message";
 
 function App() {
   return (
-    <div>
-      <h2 className={App}> Hello World</h2>
+    <div className='App'>
+      <h1 className='App-geating'> Hello World</h1>
+      
+      {/* Передаем props для копмонента Welcome с иминем */}
+      <Welcome name="Алиса" info='Любит зеленый свет'/>
+      <Welcome name="Базилио" info='Страна Бразилия'/>
+      <Welcome name="Буратино"  info='Возрост 23'/>
       <Button />
-      <Welcome name="Алиса" />
-      <Welcome name="Базилио" />
-      <Welcome name="Буратино" />
     </div>
   );
 }
